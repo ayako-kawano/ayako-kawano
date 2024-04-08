@@ -79,6 +79,6 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Ayako Kawano is a PhD student at Stanford University. Her research interests include impact analysis of air pollution on population health and climate change using remote sensing data and machine learning methods. Before coming to Stanford, she worked as a Data Scientist at UN Global Pulse and Program Manager at United Nations Industrial Development Organization (UNIDO).
+Ayako Kawano is a Ph.D. student at Stanford University. Her research interests include the impact analysis of air pollution on population health and climate change in low- and middle-income countries using remote sensing data and machine learning methods. Before coming to Stanford, she worked as a Data Scientist at UN Global Pulse and as a Program Manager at the United Nations Industrial Development Organization (UNIDO).
 {style="text-align: justify;"}
 
