@@ -29,9 +29,9 @@ bio: Environmental data scientist looking at the impacts of air pollution on hum
 
 # Interests to show in About widget
 interests:
-  - Machine learning
-  - Climate science
-  - Causal inference
+  - Geospatial data science
+  - Environmental health
+  - Climate change
 
 # Education to show in About widget
 education:
