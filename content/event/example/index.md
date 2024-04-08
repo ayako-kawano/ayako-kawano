@@ -6,7 +6,7 @@ event_url: https://meetingorganizer.copernicus.org/EGU24/EGU24-14441.html
 
 location: Vienna, Austria & Online
 address:
-  street: Austria Center Vienna (ACV) Bruno-Kreisky-Platz 1
+  street: Austria Center Vienna (ACV)
   city: Wien
   region: ''
   postcode: '1220'
@@ -27,7 +27,7 @@ Our predictions offer valuable insights into air quality trends in India from 20
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-04-15T03:20:00Z'
+date: '2024-04-15T15:20:00Z'
 #date_end: '2024-04-01T15:00:00Z'
 all_day: false
 
@@ -68,16 +68,17 @@ url_video: ''
 #   Otherwise, set `projects = []`.
 #projects:
 #  - example
+#---
+
+#{{% callout note %}}
+#Click on the **Slides** button above to view the built-in slides feature.
+#{{% /callout %}}
+
+#Slides can be added in a few ways:
+
+#- **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using `slides` parameter in the front matter of the talk file
+#- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+#- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
+
+#Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page.
 ---
-
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
-
-Slides can be added in a few ways:
-
-- **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
-
-Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page.
