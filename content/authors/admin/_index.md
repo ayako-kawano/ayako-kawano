@@ -36,7 +36,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PH.D. in Environment and Resources
+    - course: Ph.D. in Environment and Resources
       institution: Stanford University
       year: 2022 - present
     - course: MPH with Graduate Cert. in Applied Data Science
