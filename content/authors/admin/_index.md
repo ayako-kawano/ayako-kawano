@@ -39,9 +39,9 @@ education:
     - course: PhD in Environment and Resources
       institution: Stanford University
       year: 2022 - present
-    - course: Master of Public Health with Graduate Certificate in Data Science
+    - course: Master of Public Health with Graduate Certificate in Applied Data Science
       institution: University of California, Berkeley
-      year: 2020
+      year: 2021
     - course: Master of Development Studies 
       institution: Graduate Institute, Geneva (IHEID)
       year: 2013
