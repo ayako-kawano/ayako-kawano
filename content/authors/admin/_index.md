@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: PhD student at Stanford University
+role: Ph.D. student at Stanford University
 
 # Organizations/Affiliations to show in About widget
 organizations:
