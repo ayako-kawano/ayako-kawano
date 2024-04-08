@@ -39,7 +39,7 @@ education:
     - course: PH.D. in Environment and Resources
       institution: Stanford University
       year: 2022 - present
-    - course: MPH with Graduate Certificate in Applied Data Science
+    - course: MPH with Graduate Cert. in Applied Data Science
       institution: University of California, Berkeley
       year: 2021
     - course: Master of Development Studies 
