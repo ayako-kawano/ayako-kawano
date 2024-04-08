@@ -42,6 +42,30 @@ sections:
       title: ''
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+  - block: collection
+    id: talks
+    content:
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - event
+    design:
+      columns: '2'
+      view: compact
+  - block: collection
+    content:
+      title: Publications
+      text: |-
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: citation
   - block: portfolio
     id: projects
     content:
@@ -69,30 +93,6 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: collection
-    content:
-      title: Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
   - block: contact
     id: contact
     content:
@@ -101,17 +101,6 @@ sections:
       text: |-
         Reach out to discuss collaborations! 
       # Contact (add or remove contact options as necessary)
-      address:
-        street: 473 Via Ortega
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      # Choose a map provider in `params.yaml` to show a map from these coordinates
-      coordinates:
-        latitude: '37.4285602361244'
-        longitude: '-122.17587102698387'  
       # Email form provider
       form:
         provider: netlify
